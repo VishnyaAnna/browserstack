@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "browserstack"
+version = "0.1.0"
+description = ""
+authors = ["annavishnyakova <vishnyakova0307@gmail.com>"]
+readme = "README.md"
+packages = [{include = "browserstack"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Appium-Python-Client = "^2.6.1"
+selene = {version = "^2.0.0-beta.8", allow-prereleases = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
